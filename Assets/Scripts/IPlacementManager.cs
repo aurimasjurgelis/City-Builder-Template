@@ -10,4 +10,5 @@ public interface IPlacementManager
 	void PlaceStructuresOnTheMap(IEnumerable<GameObject> structureCollection);
 	void ResetBuildingMaterials(GameObject structure);
 	void SetBuildingForDemolition(GameObject structureToDemolish);
+	GameObject MoveStructureOnTheMap(Vector3Int positionToPlaceStructure, GameObject gameObjectToReuse, GameObject prefab);
 }

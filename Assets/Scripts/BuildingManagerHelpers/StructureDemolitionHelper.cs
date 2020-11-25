@@ -7,7 +7,7 @@ using UnityEngine;
 public class StructureDemolitionHelper : StructureModificationHelper
 {
 	Dictionary<Vector3Int, GameObject> roadToDemolish = new Dictionary<Vector3Int, GameObject>();
-	public StructureDemolitionHelper(StructureRepository structureRepository, GridStructure grid, PlacementManager placementManager, IResourceManager resourceManager) : base(structureRepository, grid, placementManager, resourceManager)
+	public StructureDemolitionHelper(StructureRepository structureRepository, GridStructure grid, IPlacementManager placementManager, IResourceManager resourceManager) : base(structureRepository, grid, placementManager, resourceManager)
 	{
 	}
 
@@ -15,7 +15,7 @@ public class StructureDemolitionHelper : StructureModificationHelper
 	{
 		foreach(var item in structuresToBeModified)
 		{
-			resourceManager.AddMoney(resourceManager.demolitionPrice);
+			resourceManager.AddMoney(resourceManager.DemolitionPrice);
 		}
 		this.placementManager.PlaceStructuresOnTheMap(structuresToBeModified.Values);
 		structuresToBeModified.Clear();
@@ -65,13 +65,13 @@ public class StructureDemolitionHelper : StructureModificationHelper
 			var structure = grid.GetStructureFromTheGrid(gridPosition);
 			if (structuresToBeModified.ContainsKey(gridPositionInt))
 			{
-				resourceManager.AddMoney(resourceManager.demolitionPrice);
+				resourceManager.AddMoney(resourceManager.DemolitionPrice);
 				RevokeStructureDemolitionAt(gridPositionInt, structure);
 			}
-			else if(resourceManager.CanIBuyIt(resourceManager.demolitionPrice))
+			else if(resourceManager.CanIBuyIt(resourceManager.DemolitionPrice))
 			{
 				AddStructureForDemolition(gridPositionInt, structure);
-				resourceManager.SpendMoney(resourceManager.demolitionPrice);
+				resourceManager.SpendMoney(resourceManager.DemolitionPrice);
 			}
 		}
 	}

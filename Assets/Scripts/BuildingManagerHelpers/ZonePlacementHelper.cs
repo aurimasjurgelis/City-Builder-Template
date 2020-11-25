@@ -15,7 +15,7 @@ public class ZonePlacementHelper : StructureModificationHelper
 	bool startPositionAquired = false;
 	Queue<GameObject> gameObjectsToReuse = new Queue<GameObject>();
 	private int structuresOldQuantity = 0;
-	public ZonePlacementHelper(StructureRepository structureRepository, GridStructure grid, PlacementManager placementManager, ResourceManager resourceManager, Vector3 mapBottomLeftCorner) : base(structureRepository, grid, placementManager, resourceManager)
+	public ZonePlacementHelper(StructureRepository structureRepository, GridStructure grid, IPlacementManager placementManager, IResourceManager resourceManager, Vector3 mapBottomLeftCorner) : base(structureRepository, grid, placementManager, resourceManager)
 	{
 		this.mapBottomLeftCorner = mapBottomLeftCorner;
 	}

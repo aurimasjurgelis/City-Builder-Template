@@ -9,10 +9,10 @@ public abstract class StructureModificationHelper
 	protected readonly StructureRepository structureRepository;
 	protected StructureBaseSO structureData;
 	protected readonly GridStructure grid;
-	protected readonly PlacementManager placementManager;
+	protected readonly IPlacementManager placementManager;
 	protected IResourceManager resourceManager;
 
-	public StructureModificationHelper(StructureRepository structureRepository, GridStructure grid, PlacementManager placementManager, IResourceManager resourceManager)
+	public StructureModificationHelper(StructureRepository structureRepository, GridStructure grid, IPlacementManager placementManager, IResourceManager resourceManager)
 	{
 		this.structureRepository = structureRepository;
 		this.grid = grid;

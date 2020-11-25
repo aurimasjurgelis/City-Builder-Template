@@ -20,7 +20,7 @@ public class ResourceManager : MonoBehaviour, IResourceManager
 
 	public int StartMoneyAmount { get => startMoneyAmount;  }
 	public float MoneyCalculationInterval { get => moneyCalculationInterval;  }
-	int IResourceManager.demolitionPrice { get => demolitionPrice; }
+	int IResourceManager.DemolitionPrice { get => demolitionPrice; }
 
 	private void Start()
 	{
