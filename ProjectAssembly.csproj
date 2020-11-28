@@ -60,7 +60,9 @@
     <Compile Include="Assets\Scripts\StructureEconomyManager.cs" />
     <Compile Include="Assets\Scripts\IResourceManager.cs" />
     <Compile Include="Assets\Scripts\Cell.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\StructureBaseSO.cs" />
+    <Compile Include="Assets\Scripts\States\PlayerBuildingZoneState.cs" />
     <Compile Include="Assets\Scripts\UIStructureInfoPanelHelper.cs" />
     <Compile Include="Assets\Scripts\IInputManager.cs" />
     <Compile Include="Assets\Scripts\ResourceManager.cs" />
@@ -76,6 +78,8 @@
     <Compile Include="Assets\Scripts\GridStructure.cs" />
     <Compile Include="Assets\Scripts\PopulationHelper.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\States\PlayerDemolitionState.cs" />
+    <Compile Include="Assets\Scripts\States\PlayerBuildingRoadState.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
     <Compile Include="Assets\Scripts\BuildingManager.cs" />
     <Compile Include="Assets\Scripts\BuildingManagerHelpers\StructureDemolitionHelper.cs" />
@@ -88,16 +92,12 @@
     <Compile Include="Assets\Scripts\MoneyException.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\RoadStructureSO.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\CollectionSO.cs" />
+    <Compile Include="Assets\Scripts\States\PlayerBuildingSingleStructureState.cs" />
     <Compile Include="Assets\Scripts\BuildingManagerHelpers\RoadManager.cs" />
     <Compile Include="Assets\Scripts\BuildingManagerHelpers\SingleStructurePlacementHelper.cs" />
     <Compile Include="Assets\Scripts\BuildingManagerHelpers\RoadStructureHelper.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\NullStructureSO.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\States\PlayerBuildingZoneState.cs" />
-    <Compile Include="Assets\Scripts\States\PlayerDemolitionState.cs" />
-    <Compile Include="Assets\Scripts\States\PlayerBuildingRoadState.cs" />
-    <Compile Include="Assets\Scripts\States\PlayerBuildingSingleStructureState.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Scripts\ProjectAssembly.asmdef" />
