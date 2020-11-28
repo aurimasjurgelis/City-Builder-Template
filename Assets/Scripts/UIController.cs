@@ -5,21 +5,21 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIController : MonoBehaviour
+public class UiController : MonoBehaviour
 {
     private Action<string> OnBuildAreaHandler;
     private Action<string> OnBuildSingleStructureHandler;
     private Action<string> OnBuildRoadHandler;
 
-    private Action OnCancelActionHandler;
+    private Action OnCancleActionHandler;
     private Action OnConfirmActionHandler;
     private Action OnDemolishActionHandler;
 
     public StructureRepository structureRepository;
     public Button buildResidentialAreaBtn;
-    public Button cancelActionBtn;
+    public Button cancleActionBtn;
     public Button confirmActionBtn;
-    public GameObject cancelActionPanel;
+    public GameObject cancleActionPanel;
 
     public GameObject buildingMenuPanel;
     public Button openBuildMenuBtn;
@@ -27,12 +27,6 @@ public class UIController : MonoBehaviour
 
     public GameObject zonesPanel;
     public GameObject facilitiesPanel;
-
-    public void HideStructureInfo()
-    {
-        structurePanelHelper.Hide();
-    }
-
     public GameObject roadsPanel;
     public Button closeBuildMenuBtn;
 
@@ -43,75 +37,72 @@ public class UIController : MonoBehaviour
 
     public UIStructureInfoPanelHelper structurePanelHelper;
 
+    // Start is called before the first frame update
     void Start()
     {
-        cancelActionPanel.SetActive(false);
+        cancleActionPanel.SetActive(false);
         buildingMenuPanel.SetActive(false);
         //buildResidentialAreaBtn.onClick.AddListener(OnBuildAreaCallback);
-        cancelActionBtn.onClick.AddListener(OnCancelActionCallback);
+        cancleActionBtn.onClick.AddListener(OnCancleActionCallback);
         confirmActionBtn.onClick.AddListener(OnConfirmActionCallback);
         openBuildMenuBtn.onClick.AddListener(OnOpenBuildMenu);
         demolishBtn.onClick.AddListener(OnDemolishHandler);
         closeBuildMenuBtn.onClick.AddListener(OnCloseMenuHandler);
+
     }
 
-    private void OnConfirmActionCallback()
+    public void HideStructureInfo()
     {
-        cancelActionPanel.SetActive(false);
-        OnConfirmActionHandler?.Invoke();
+        structurePanelHelper.Hide();
     }
 
     public bool GetStructureInfoVisibility()
     {
+
         return structurePanelHelper.gameObject.activeSelf;
     }
 
+    private void OnConfirmActionCallback()
+    {
+
+        cancleActionPanel.SetActive(false);
+        OnConfirmActionHandler?.Invoke();
+    }
+
+
+
     private void OnCloseMenuHandler()
     {
+        AudioManager.Instance.PlayButtonClickedSound();
         buildingMenuPanel.SetActive(false);
     }
 
     private void OnDemolishHandler()
     {
+        AudioManager.Instance.PlayButtonClickedSound();
         OnDemolishActionHandler?.Invoke();
-        cancelActionPanel.SetActive(true);
+        cancleActionPanel.SetActive(true);
         OnCloseMenuHandler();
     }
 
     private void OnOpenBuildMenu()
     {
+        AudioManager.Instance.PlayButtonClickedSound();
         buildingMenuPanel.SetActive(true);
+        
         PrepareBuildMenu();
     }
 
     private void PrepareBuildMenu()
     {
-        CreateButtonsInPanel(zonesPanel.transform, structureRepository.GetZoneNames(), OnBuildAreaCallback);
-        CreateButtonsInPanel(facilitiesPanel.transform, structureRepository.GetSingleStructureNames(), OnBuildSingleStructureCallback);
-        CreateButtonsInPanel(roadsPanel.transform, new List<string>() { structureRepository.GetRoadStructureName() }, OnBuildRoadCallback);
+        CreateButtonsInPanel(zonesPanel.transform, structureRepository.GetZoneNames(),OnBuildAreaCallback);
+        CreateButtonsInPanel(facilitiesPanel.transform, structureRepository.GetSingleStructureNames(),OnBuildSingleStructureCallback);
+        CreateButtonsInPanel(roadsPanel.transform, new List<string>() { structureRepository.GetRoadStructureName() },OnBuildRoadCallback);
     }
 
     public void SetPopulationValue(int population)
     {
         populationValue.text = population + "";
-    }
-
-    private void OnBuildRoadCallback(string nameOfStructure)
-    {
-        PrepareUIForBuilding();
-        OnBuildRoadHandler?.Invoke(nameOfStructure);
-    }
-
-    private void OnBuildSingleStructureCallback(string nameOfStructure)
-    {
-        PrepareUIForBuilding();
-        OnBuildSingleStructureHandler?.Invoke(nameOfStructure);
-    }
-
-    private void PrepareUIForBuilding()
-    {
-        cancelActionPanel.SetActive(true);
-        OnCloseMenuHandler();
     }
 
     private void CreateButtonsInPanel(Transform panelTransform, List<string> dataToShow, Action<string> callback)
@@ -130,15 +121,9 @@ public class UIController : MonoBehaviour
             if (button != null)
             {
                 button.GetComponentInChildren<TextMeshProUGUI>().text = dataToShow[i];
-                button.onClick.AddListener(() => callback(button.GetComponentInChildren<TextMeshProUGUI>().text));
+                button.onClick.AddListener(()=> callback(button.GetComponentInChildren<TextMeshProUGUI>().text));
             }
         }
-    }
-
-    private void OnBuildAreaCallback(string nameOfStructure)
-    {
-        PrepareUIForBuilding();
-        OnBuildAreaHandler?.Invoke(nameOfStructure);
     }
 
     public void SetMoneyValue(int money)
@@ -146,9 +131,10 @@ public class UIController : MonoBehaviour
         moneyValue.text = money + "";
     }
 
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
-
+        
     }
 
     public void DisplayBasicStructureInfo(StructureBaseSO data)
@@ -161,15 +147,40 @@ public class UIController : MonoBehaviour
         structurePanelHelper.DisplayZoneStructureInfo(data);
     }
 
-    public void DisplayFacilityStructureInfo(SingleFacilitySO data)
+    public void DisplayFacilitStructureInfo(SingleFacilitySO data)
     {
         structurePanelHelper.DisplayFacilityStructureInfo(data);
     }
 
-    private void OnCancelActionCallback()
+    private void OnBuildAreaCallback(string nameOfStructure)
     {
-        cancelActionPanel.SetActive(false);
-        OnCancelActionHandler?.Invoke();
+        PrepareUIForBuilding();
+        OnBuildAreaHandler?.Invoke(nameOfStructure);
+    }
+
+    private void OnBuildRoadCallback(string nameOfStructure)
+    {
+        PrepareUIForBuilding();
+        OnBuildRoadHandler?.Invoke(nameOfStructure);
+    }
+
+    private void OnBuildSingleStructureCallback(string nameOfStructure)
+    {
+        PrepareUIForBuilding();
+        OnBuildSingleStructureHandler?.Invoke(nameOfStructure);
+    }
+
+    private void PrepareUIForBuilding()
+    {
+        cancleActionPanel.SetActive(true);
+        OnCloseMenuHandler();
+    }
+
+    private void OnCancleActionCallback()
+    {
+        AudioManager.Instance.PlayButtonClickedSound();
+        cancleActionPanel.SetActive(false);
+        OnCancleActionHandler?.Invoke();
     }
 
     public void AddListenerOnBuildAreaEvent(Action<string> listener)
@@ -181,25 +192,7 @@ public class UIController : MonoBehaviour
     {
         OnBuildAreaHandler -= listener;
     }
-    public void AddListenerOnCancelActionEvent(Action listener)
-    {
-        OnCancelActionHandler += listener;
-    }
 
-    public void RemoveListenerOnCancleActionEvent(Action listener)
-    {
-        OnCancelActionHandler -= listener;
-    }
-
-    public void AddListenerOnDemolishActionEvent(Action listener)
-    {
-        OnDemolishActionHandler += listener;
-    }
-
-    public void RemoveListenerOnDemolishActionEvent(Action listener)
-    {
-        OnDemolishActionHandler -= listener;
-    }
     public void AddListenerOnBuildSingleStructureEvent(Action<string> listener)
     {
         OnBuildSingleStructureHandler += listener;
@@ -220,6 +213,16 @@ public class UIController : MonoBehaviour
         OnBuildRoadHandler -= listener;
     }
 
+    public void AddListenerOnCancleActionEvent(Action listener)
+    {
+        OnCancleActionHandler += listener;
+    }
+
+    public void RemoveListenerOnCancleActionEvent(Action listener)
+    {
+        OnCancleActionHandler -= listener;
+    }
+
     public void AddListenerOnConfirmActionEvent(Action listener)
     {
         OnConfirmActionHandler += listener;
@@ -228,5 +231,15 @@ public class UIController : MonoBehaviour
     public void RemoveListenerOnConfirmActionEvent(Action listener)
     {
         OnConfirmActionHandler -= listener;
+    }
+
+    public void AddListenerOnDemolishActionEvent(Action listener)
+    {
+        OnDemolishActionHandler += listener;
+    }
+
+    public void RemoveListenerOnDemolishActionEvent(Action listener)
+    {
+        OnDemolishActionHandler -= listener;
     }
 }

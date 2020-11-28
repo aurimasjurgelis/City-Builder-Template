@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     private IPlacementManager placementManager;
     public StructureRepository structureRepository;
     public IInputManager inputManager;
-    public UIController uiController;
+    public UiController uiController;
     public int width, length;
     public CameraMovement cameraMovement;
     public LayerMask inputMask;
@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-
+        
 #if (UNITY_EDITOR && TEST) || !(UNITY_IOS || UNITY_ANDROID)
         inputManager = gameObject.AddComponent<InputManager>();
 #endif
@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
         uiController.AddListenerOnBuildAreaEvent((structureName) => state.OnBuildArea(structureName));
         uiController.AddListenerOnBuildSingleStructureEvent((structureName) => state.OnBuildSingleStructure(structureName));
         uiController.AddListenerOnBuildRoadEvent((structureName) => state.OnBuildRoad(structureName));
-        uiController.AddListenerOnCancelActionEvent(() => state.OnCancel());
+        uiController.AddListenerOnCancleActionEvent(() => state.OnCancel());
         uiController.AddListenerOnDemolishActionEvent(() => state.OnDemolishAction());
         uiController.AddListenerOnConfirmActionEvent(() => state.OnConfirmAction());
 
@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour
     private void AssignInputListeners()
     {
         inputManager.AddListenerOnPointerDownEvent((position) => state.OnInputPointerDown(position));
-        inputManager.AddListenerOnPointerSecondChangeEvent((position) => state.OnInputPanChange(position));
+        inputManager.AddListenerOnPointerSecondDownEvent((position) => state.OnInputPanChange(position));
         inputManager.AddListenerOnPointerSecondUpEvent(() => state.OnInputPanUp());
         inputManager.AddListenerOnPointerChangeEvent((position) => state.OnInputPointerChange(position));
         inputManager.AddListenerOnPointerUpEvent(() => state.OnInputPointerUp());

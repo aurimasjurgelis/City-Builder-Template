@@ -1,0 +1,3323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 43.2
+    width: 2752
+    height: 1068.8
+  m_ShowMode: 4
+  m_Title: Hierarchy
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 4}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2752
+    height: 1068.8
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2752
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LoadedToolbars:
+  - {fileID: 19}
+  m_MainToolbar: {fileID: 19}
+  m_LastLoadedLayoutName: 
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 2752
+    height: 1018.80005
+  m_MinSize: {x: 911, y: 421}
+  m_MaxSize: {x: 22006, y: 10021}
+  vertical: 0
+  controlID: 70
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 1048.8
+    width: 2752
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1258.4
+    height: 1018.80005
+  m_MinSize: {x: 201, y: 421}
+  m_MaxSize: {x: 4001, y: 8021}
+  vertical: 1
+  controlID: 115
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1258.4
+    y: 0
+    width: 541.6
+    height: 1018.80005
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1800
+    y: 0
+    width: 475.2
+    height: 1018.80005
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 2275.2
+    y: 0
+    width: 476.80005
+    height: 1018.80005
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1258.4
+    height: 456
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 456
+    width: 1258.4
+    height: 562.80005
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 943.2
+    y: 73.6
+    width: 506
+    height: 997.80005
+  m_ViewDataDictionary: {fileID: 0}
+  m_Spl:
+    ID: 164
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 696
+    - 232
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 928
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 12}
+    newResultList:
+    - id: 1321
+      uniqueId: '[Udemy City Builder Code][suite]'
+      name: Udemy City Builder Code
+      fullName: Udemy City Builder Code
+      resultStatus: 2
+      duration: 0.790397
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1338
+      uniqueId: '[PlayModeTests.dll][suite]'
+      name: PlayModeTests.dll
+      fullName: C:/Users/auris/Desktop/City Builder/Library/ScriptAssemblies/PlayModeTests.dll
+      resultStatus: 2
+      duration: 0.659363
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1321
+      parentUniqueId: '[Udemy City Builder Code][suite]'
+    - id: 1339
+      uniqueId: PlayModeTests.dll/[PlayModeTests][Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 2
+      duration: 0.6354206
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1338
+      parentUniqueId: '[PlayModeTests.dll][suite]'
+    - id: 1322
+      uniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlacementManagerTests][suite]
+      name: PlacementManagerTests
+      fullName: Tests.PlacementManagerTests
+      resultStatus: 1
+      duration: 0.3591612
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1339
+      parentUniqueId: PlayModeTests.dll/[PlayModeTests][Tests][suite]
+    - id: 1325
+      uniqueId: PlayModeTests.dll/Tests/PlacementManagerTests/[PlayModeTests][Tests.PlacementManagerTests.PlacementManagerDestroyStructurePasses]
+      name: PlacementManagerDestroyStructurePasses
+      fullName: Tests.PlacementManagerTests.PlacementManagerDestroyStructurePasses
+      resultStatus: 1
+      duration: 0.225288
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1322
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlacementManagerTests][suite]
+    - id: 1324
+      uniqueId: PlayModeTests.dll/Tests/PlacementManagerTests/[PlayModeTests][Tests.PlacementManagerTests.PlacementManagerPlaceStructureOnTheMapMaterialPasses]
+      name: PlacementManagerPlaceStructureOnTheMapMaterialPasses
+      fullName: Tests.PlacementManagerTests.PlacementManagerPlaceStructureOnTheMapMaterialPasses
+      resultStatus: 1
+      duration: 0.0470699
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1322
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlacementManagerTests][suite]
+    - id: 1323
+      uniqueId: PlayModeTests.dll/Tests/PlacementManagerTests/[PlayModeTests][Tests.PlacementManagerTests.PlacementManagerTestsCreateGhostStructurePasses]
+      name: PlacementManagerTestsCreateGhostStructurePasses
+      fullName: Tests.PlacementManagerTests.PlacementManagerTestsCreateGhostStructurePasses
+      resultStatus: 1
+      duration: 0.0454672
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1322
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlacementManagerTests][suite]
+    - id: 1326
+      uniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlayerStatusTest][suite]
+      name: PlayerStatusTest
+      fullName: Tests.PlayerStatusTest
+      resultStatus: 2
+      duration: 0.1085722
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1339
+      parentUniqueId: PlayModeTests.dll/[PlayModeTests][Tests][suite]
+    - id: 1328
+      uniqueId: PlayModeTests.dll/Tests/PlayerStatusTest/[PlayModeTests][Tests.PlayerStatusTest.PlayerStatusPlayerBuildAreaStateTestWithEnumeratorPasses]
+      name: PlayerStatusPlayerBuildAreaStateTestWithEnumeratorPasses
+      fullName: Tests.PlayerStatusTest.PlayerStatusPlayerBuildAreaStateTestWithEnumeratorPasses
+      resultStatus: 2
+      duration: 0.029856
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        NullReferenceException: Object reference not set to an instance
+        of an object
+
+'
+      stacktrace: 'UiController.GetStructureInfoVisibility () (at Assets/Scripts/UiController.cs:67)
+
+        PlayerSelectionState.EnterState
+        (System.String variable) (at Assets/Scripts/States/PlayerSelectionState.cs:67)
+
+        GameManager.PrepareStates
+        () (at Assets/Scripts/GameManager.cs:54)
+
+        GameManager.Start () (at
+        Assets/Scripts/GameManager.cs:61)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1326
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlayerStatusTest][suite]
+    - id: 1329
+      uniqueId: PlayModeTests.dll/Tests/PlayerStatusTest/[PlayModeTests][Tests.PlayerStatusTest.PlayerStatusPlayerBuildingRoadStateTestWithEnumeratorPasses]
+      name: PlayerStatusPlayerBuildingRoadStateTestWithEnumeratorPasses
+      fullName: Tests.PlayerStatusTest.PlayerStatusPlayerBuildingRoadStateTestWithEnumeratorPasses
+      resultStatus: 2
+      duration: 0.0130262
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        NullReferenceException: Object reference not set to an instance
+        of an object
+
+'
+      stacktrace: 'UiController.GetStructureInfoVisibility () (at Assets/Scripts/UiController.cs:67)
+
+        PlayerSelectionState.EnterState
+        (System.String variable) (at Assets/Scripts/States/PlayerSelectionState.cs:67)
+
+        GameManager.PrepareStates
+        () (at Assets/Scripts/GameManager.cs:54)
+
+        GameManager.Start () (at
+        Assets/Scripts/GameManager.cs:61)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1326
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlayerStatusTest][suite]
+    - id: 1327
+      uniqueId: PlayModeTests.dll/Tests/PlayerStatusTest/[PlayModeTests][Tests.PlayerStatusTest.PlayerStatusPlayerBuildingSingleStructureStateTestWithEnumeratorPasses]
+      name: PlayerStatusPlayerBuildingSingleStructureStateTestWithEnumeratorPasses
+      fullName: Tests.PlayerStatusTest.PlayerStatusPlayerBuildingSingleStructureStateTestWithEnumeratorPasses
+      resultStatus: 2
+      duration: 0.0109774
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        NullReferenceException: Object reference not set to an instance
+        of an object
+
+'
+      stacktrace: 'UiController.GetStructureInfoVisibility () (at Assets/Scripts/UiController.cs:67)
+
+        PlayerSelectionState.EnterState
+        (System.String variable) (at Assets/Scripts/States/PlayerSelectionState.cs:67)
+
+        GameManager.PrepareStates
+        () (at Assets/Scripts/GameManager.cs:54)
+
+        GameManager.Start () (at
+        Assets/Scripts/GameManager.cs:61)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1326
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlayerStatusTest][suite]
+    - id: 1330
+      uniqueId: PlayModeTests.dll/Tests/PlayerStatusTest/[PlayModeTests][Tests.PlayerStatusTest.PlayerStatusPlayerRemoveBuildingStateTestWithEnumeratorPasses]
+      name: PlayerStatusPlayerRemoveBuildingStateTestWithEnumeratorPasses
+      fullName: Tests.PlayerStatusTest.PlayerStatusPlayerRemoveBuildingStateTestWithEnumeratorPasses
+      resultStatus: 2
+      duration: 0.013743
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        NullReferenceException: Object reference not set to an instance
+        of an object
+
+'
+      stacktrace: 'UiController.GetStructureInfoVisibility () (at Assets/Scripts/UiController.cs:67)
+
+        PlayerSelectionState.EnterState
+        (System.String variable) (at Assets/Scripts/States/PlayerSelectionState.cs:67)
+
+        GameManager.PrepareStates
+        () (at Assets/Scripts/GameManager.cs:54)
+
+        GameManager.Start () (at
+        Assets/Scripts/GameManager.cs:61)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1326
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlayerStatusTest][suite]
+    - id: 1331
+      uniqueId: PlayModeTests.dll/Tests/PlayerStatusTest/[PlayModeTests][Tests.PlayerStatusTest.PlayerStatusPlayerSelectionStateTestWithEnumeratorPasses]
+      name: PlayerStatusPlayerSelectionStateTestWithEnumeratorPasses
+      fullName: Tests.PlayerStatusTest.PlayerStatusPlayerSelectionStateTestWithEnumeratorPasses
+      resultStatus: 2
+      duration: 0.0191733
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        NullReferenceException: Object reference not set to an instance
+        of an object
+
+'
+      stacktrace: 'UiController.GetStructureInfoVisibility () (at Assets/Scripts/UiController.cs:67)
+
+        PlayerSelectionState.EnterState
+        (System.String variable) (at Assets/Scripts/States/PlayerSelectionState.cs:67)
+
+        GameManager.PrepareStates
+        () (at Assets/Scripts/GameManager.cs:54)
+
+        GameManager.Start () (at
+        Assets/Scripts/GameManager.cs:61)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1326
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.PlayerStatusTest][suite]
+    - id: 1332
+      uniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.StructureRepositoryTest][suite]
+      name: StructureRepositoryTest
+      fullName: Tests.StructureRepositoryTest
+      resultStatus: 2
+      duration: 0.1449559
+      messages: One or more child tests had errors
+      output: 'CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+        SingleFacilitySO
+        must be instantiated using the ScriptableObject.CreateInstance method instead
+        of new SingleFacilitySO.
+
+        ZoneStructureSO must be instantiated using
+        the ScriptableObject.CreateInstance method instead of new ZoneStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1339
+      parentUniqueId: PlayModeTests.dll/[PlayModeTests][Tests][suite]
+    - id: 1337
+      uniqueId: PlayModeTests.dll/Tests/StructureRepositoryTest/[PlayModeTests][Tests.StructureRepositoryTest.StructureRepositoryTestRoadListNamePasses]
+      name: StructureRepositoryTestRoadListNamePasses
+      fullName: Tests.StructureRepositoryTest.StructureRepositoryTestRoadListNamePasses
+      resultStatus: 2
+      duration: 0.0252525
+      messages: 'Unhandled log message: ''[Error] Request error (error): ''. Use
+        UnityEngine.TestTools.LogAssert.Expect'
+      output: "Request error (error): \r\n"
+      stacktrace: 'UnityEditor.AsyncHTTPClient:Done(State, Int32)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1332
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.StructureRepositoryTest][suite]
+    - id: 1336
+      uniqueId: PlayModeTests.dll/Tests/StructureRepositoryTest/[PlayModeTests][Tests.StructureRepositoryTest.StructureRepositoryTestSingleStructureListNamePasses]
+      name: StructureRepositoryTestSingleStructureListNamePasses
+      fullName: Tests.StructureRepositoryTest.StructureRepositoryTestSingleStructureListNamePasses
+      resultStatus: 1
+      duration: 0.024818
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1332
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.StructureRepositoryTest][suite]
+    - id: 1335
+      uniqueId: PlayModeTests.dll/Tests/StructureRepositoryTest/[PlayModeTests][Tests.StructureRepositoryTest.StructureRepositoryTestSingleStructureListQuantityPasses]
+      name: StructureRepositoryTestSingleStructureListQuantityPasses
+      fullName: Tests.StructureRepositoryTest.StructureRepositoryTestSingleStructureListQuantityPasses
+      resultStatus: 1
+      duration: 0.0246293
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1332
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.StructureRepositoryTest][suite]
+    - id: 1334
+      uniqueId: PlayModeTests.dll/Tests/StructureRepositoryTest/[PlayModeTests][Tests.StructureRepositoryTest.StructureRepositoryTestZoneListNamePasses]
+      name: StructureRepositoryTestZoneListNamePasses
+      fullName: Tests.StructureRepositoryTest.StructureRepositoryTestZoneListNamePasses
+      resultStatus: 1
+      duration: 0.0263462
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1332
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.StructureRepositoryTest][suite]
+    - id: 1333
+      uniqueId: PlayModeTests.dll/Tests/StructureRepositoryTest/[PlayModeTests][Tests.StructureRepositoryTest.StructureRepositoryTestZoneListQuantityPasses]
+      name: StructureRepositoryTestZoneListQuantityPasses
+      fullName: Tests.StructureRepositoryTest.StructureRepositoryTestZoneListQuantityPasses
+      resultStatus: 1
+      duration: 0.0182657
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1332
+      parentUniqueId: PlayModeTests.dll/Tests/[PlayModeTests][Tests.StructureRepositoryTest][suite]
+    m_ResultText: 'PlayerStatusPlayerRemoveBuildingStateTestWithEnumeratorPasses
+      (0.014s)
+
+      ---
+
+      Unhandled log message: ''[Exception] NullReferenceException:
+      Object reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect
+
+      ---
+
+      UiController.GetStructureInfoVisibility
+      () (at Assets/Scripts/UiController.cs:67)
+
+      PlayerSelectionState.EnterState
+      (System.String variable) (at Assets/Scripts/States/PlayerSelectionState.cs:67)
+
+      GameManager.PrepareStates
+      () (at Assets/Scripts/GameManager.cs:54)
+
+      GameManager.Start () (at Assets/Scripts/GameManager.cs:61)
+
+      ---
+
+      You
+      are trying to create a MonoBehaviour using the ''new'' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all
+
+      NullReferenceException:
+      Object reference not set to an instance of an object'
+    m_ResultStacktrace: 'UiController.GetStructureInfoVisibility () (at Assets/Scripts/UiController.cs:67)
+
+      PlayerSelectionState.EnterState
+      (System.String variable) (at Assets/Scripts/States/PlayerSelectionState.cs:67)
+
+      GameManager.PrepareStates
+      () (at Assets/Scripts/GameManager.cs:54)
+
+      GameManager.Start () (at Assets/Scripts/GameManager.cs:61)
+
+
+
+'
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: a1446bae
+      m_LastClickedID: -1368701791
+      m_ExpandedIDs: ae332b915191939244b3fb9cd9f7a61757bb271c5192e335ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 12}
+    newResultList:
+    - id: 1000
+      uniqueId: '[City Builder][suite]'
+      name: City Builder
+      fullName: City Builder
+      resultStatus: 1
+      duration: 0.7399815
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1103
+      uniqueId: '[EditModeTests.dll][suite]'
+      name: EditModeTests.dll
+      fullName: C:/Users/auris/Desktop/City Builder/Library/ScriptAssemblies/EditModeTests.dll
+      resultStatus: 1
+      duration: 0.6518081
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Udemy City Builder Code][suite]'
+    - id: 1104
+      uniqueId: EditModeTests.dll/[EditModeTests][Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 0.6336058
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1103
+      parentUniqueId: '[EditModeTests.dll][suite]'
+    - id: 1001
+      uniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.CellTest][suite]
+      name: CellTest
+      fullName: Tests.CellTest
+      resultStatus: 1
+      duration: 0.0591623
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: EditModeTests.dll/[EditModeTests][Tests][suite]
+    - id: 1005
+      uniqueId: EditModeTests.dll/Tests/CellTest/[EditModeTests][Tests.CellTest.CellGetStructureData]
+      name: CellGetStructureData
+      fullName: Tests.CellTest.CellGetStructureData
+      resultStatus: 1
+      duration: 0.0291762
+      messages: 
+      output: 'RoadStructureSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.CellTest][suite]
+    - id: 1003
+      uniqueId: EditModeTests.dll/Tests/CellTest/[EditModeTests][Tests.CellTest.CellSetGameObjectNullFail]
+      name: CellSetGameObjectNullFail
+      fullName: Tests.CellTest.CellSetGameObjectNullFail
+      resultStatus: 1
+      duration: 0.000927
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.CellTest][suite]
+    - id: 1002
+      uniqueId: EditModeTests.dll/Tests/CellTest/[EditModeTests][Tests.CellTest.CellSetGameObjectPass]
+      name: CellSetGameObjectPass
+      fullName: Tests.CellTest.CellSetGameObjectPass
+      resultStatus: 1
+      duration: 0.0005762
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.CellTest][suite]
+    - id: 1004
+      uniqueId: EditModeTests.dll/Tests/CellTest/[EditModeTests][Tests.CellTest.CellSetGameObjectRemovePass]
+      name: CellSetGameObjectRemovePass
+      fullName: Tests.CellTest.CellSetGameObjectRemovePass
+      resultStatus: 1
+      duration: 0.0004242
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.CellTest][suite]
+    - id: 1006
+      uniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+      name: GridStructureTests
+      fullName: Tests.GridStructureTests
+      resultStatus: 1
+      duration: 0.0921127
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: EditModeTests.dll/[EditModeTests][Tests][suite]
+    - id: 1009
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.CalculateGridPositionFail]
+      name: CalculateGridPositionFail
+      fullName: Tests.GridStructureTests.CalculateGridPositionFail
+      resultStatus: 1
+      duration: 0.0075129
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1008
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.CalculateGridPositionFloatsPasses]
+      name: CalculateGridPositionFloatsPasses
+      fullName: Tests.GridStructureTests.CalculateGridPositionFloatsPasses
+      resultStatus: 1
+      duration: 0.0017549
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1007
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.CalculateGridPositionPasses]
+      name: CalculateGridPositionPasses
+      fullName: Tests.GridStructureTests.CalculateGridPositionPasses
+      resultStatus: 1
+      duration: 0.0017246
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1019
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.GetAllPositionFromTo]
+      name: GetAllPositionFromTo
+      fullName: Tests.GridStructureTests.GetAllPositionFromTo
+      resultStatus: 1
+      duration: 0.0038504
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1024
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.GetDataStructureInRange1Contains0Test]
+      name: GetDataStructureInRange1Contains0Test
+      fullName: Tests.GridStructureTests.GetDataStructureInRange1Contains0Test
+      resultStatus: 1
+      duration: 0.0052129
+      messages: 
+      output: 'RoadStructureSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new RoadStructureSO.
+
+        SingleFacilitySO must be
+        instantiated using the ScriptableObject.CreateInstance method instead of
+        new SingleFacilitySO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1022
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.GetDataStructureInRange1Contains2Test]
+      name: GetDataStructureInRange1Contains2Test
+      fullName: Tests.GridStructureTests.GetDataStructureInRange1Contains2Test
+      resultStatus: 1
+      duration: 0.0039823
+      messages: 
+      output: 'RoadStructureSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new RoadStructureSO.
+
+        SingleFacilitySO must be
+        instantiated using the ScriptableObject.CreateInstance method instead of
+        new SingleFacilitySO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1023
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.GetDataStructureInRange1Contains3Test]
+      name: GetDataStructureInRange1Contains3Test
+      fullName: Tests.GridStructureTests.GetDataStructureInRange1Contains3Test
+      resultStatus: 1
+      duration: 0.003909
+      messages: 
+      output: 'RoadStructureSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new RoadStructureSO.
+
+        SingleFacilitySO must be
+        instantiated using the ScriptableObject.CreateInstance method instead of
+        new SingleFacilitySO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1021
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.GetDataStructureInRange1Contains4Test]
+      name: GetDataStructureInRange1Contains4Test
+      fullName: Tests.GridStructureTests.GetDataStructureInRange1Contains4Test
+      resultStatus: 1
+      duration: 0.0038782
+      messages: 
+      output: 'RoadStructureSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new RoadStructureSO.
+
+        SingleFacilitySO must be
+        instantiated using the ScriptableObject.CreateInstance method instead of
+        new SingleFacilitySO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1025
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.GetDataStructureInRange2Contains8Test]
+      name: GetDataStructureInRange2Contains8Test
+      fullName: Tests.GridStructureTests.GetDataStructureInRange2Contains8Test
+      resultStatus: 1
+      duration: 0.0038636
+      messages: 
+      output: 'RoadStructureSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new RoadStructureSO.
+
+        SingleFacilitySO must be
+        instantiated using the ScriptableObject.CreateInstance method instead of
+        new SingleFacilitySO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1020
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.GetDataStructureTest]
+      name: GetDataStructureTest
+      fullName: Tests.GridStructureTests.GetDataStructureTest
+      resultStatus: 1
+      duration: 0.0024292
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1018
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.GetPositionOfTheNeighbourIfExistsTestFail]
+      name: GetPositionOfTheNeighbourIfExistsTestFail
+      fullName: Tests.GridStructureTests.GetPositionOfTheNeighbourIfExistsTestFail
+      resultStatus: 1
+      duration: 0.0093608
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1017
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.GetPositionOfTheNeighbourIfExistsTestPass]
+      name: GetPositionOfTheNeighbourIfExistsTestPass
+      fullName: Tests.GridStructureTests.GetPositionOfTheNeighbourIfExistsTestPass
+      resultStatus: 1
+      duration: 0.0019984
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1013
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.PlaceStructure303AndCheckIsTakenNullObjectShouldFail]
+      name: PlaceStructure303AndCheckIsTakenNullObjectShouldFail
+      fullName: Tests.GridStructureTests.PlaceStructure303AndCheckIsTakenNullObjectShouldFail
+      resultStatus: 1
+      duration: 0.0018144
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1010
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.PlaceStructure303AndCheckIsTakenPasses]
+      name: PlaceStructure303AndCheckIsTakenPasses
+      fullName: Tests.GridStructureTests.PlaceStructure303AndCheckIsTakenPasses
+      resultStatus: 1
+      duration: 0.0017726
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1014
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.PlaceStructureAndCheckIsTakenIndexOutOfBoundsFail]
+      name: PlaceStructureAndCheckIsTakenIndexOutOfBoundsFail
+      fullName: Tests.GridStructureTests.PlaceStructureAndCheckIsTakenIndexOutOfBoundsFail
+      resultStatus: 1
+      duration: 0.0047445
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1012
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.PlaceStructureMAXAndCheckIsTakenPasses]
+      name: PlaceStructureMAXAndCheckIsTakenPasses
+      fullName: Tests.GridStructureTests.PlaceStructureMAXAndCheckIsTakenPasses
+      resultStatus: 1
+      duration: 0.0017003
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1011
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.PlaceStructureMINAndCheckIsTakenPasses]
+      name: PlaceStructureMINAndCheckIsTakenPasses
+      fullName: Tests.GridStructureTests.PlaceStructureMINAndCheckIsTakenPasses
+      resultStatus: 1
+      duration: 0.0016911
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1015
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.RetreiveStructureFromCellGameObjectPasses]
+      name: RetreiveStructureFromCellGameObjectPasses
+      fullName: Tests.GridStructureTests.RetreiveStructureFromCellGameObjectPasses
+      resultStatus: 1
+      duration: 0.0019538
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1016
+      uniqueId: EditModeTests.dll/Tests/GridStructureTests/[EditModeTests][Tests.GridStructureTests.RetreiveStructureFromCellNullPasses]
+      name: RetreiveStructureFromCellNullPasses
+      fullName: Tests.GridStructureTests.RetreiveStructureFromCellNullPasses
+      resultStatus: 1
+      duration: 0.0018751
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.GridStructureTests][suite]
+    - id: 1026
+      uniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+      name: RoadManagerTests
+      fullName: Tests.RoadManagerTests
+      resultStatus: 1
+      duration: 0.0727762
+      messages: 
+      output: 'RoadStructureSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: EditModeTests.dll/[EditModeTests][Tests][suite]
+    - id: 1052
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR0]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR0
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR0
+      resultStatus: 1
+      duration: 0.0024146
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1054
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR180]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR180
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR180
+      resultStatus: 1
+      duration: 0.0007199
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1055
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR270]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR270
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR270
+      resultStatus: 1
+      duration: 0.0006593
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1053
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR90]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR90
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfCornerFitsR90
+      resultStatus: 1
+      duration: 0.0006527
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1060
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfFourWayFitsR0]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfFourWayFitsR0
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfFourWayFitsR0
+      resultStatus: 1
+      duration: 0.0007932
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1045
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFits0]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFits0
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFits0
+      resultStatus: 1
+      duration: 0.0008382
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1046
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFitsDownR90]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFitsDownR90
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFitsDownR90
+      resultStatus: 1
+      duration: 0.0006411
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1048
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFitsUpDownR90]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFitsUpDownR90
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFitsUpDownR90
+      resultStatus: 1
+      duration: 0.0006168
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1047
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFitsUpR90]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFitsUpR90
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightFitsUpR90
+      resultStatus: 1
+      duration: 0.0006146
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1050
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightLeftFitsR0]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightLeftFitsR0
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightLeftFitsR0
+      resultStatus: 1
+      duration: 0.0006109
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1049
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightRightFitsR0]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightRightFitsR0
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightRightFitsR0
+      resultStatus: 1
+      duration: 0.000645
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1051
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightRightLeftFitsR0]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightRightLeftFitsR0
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfStraightRightLeftFitsR0
+      resultStatus: 1
+      duration: 0.000661
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1056
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR0]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR0
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR0
+      resultStatus: 1
+      duration: 0.0008674
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1058
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR180]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR180
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR180
+      resultStatus: 1
+      duration: 0.0006306
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1059
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR270]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR270
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR270
+      resultStatus: 1
+      duration: 0.0006263
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1057
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR90]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR90
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryCheckIfThreeWayFitsR90
+      resultStatus: 1
+      duration: 0.0006243
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1042
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryFalse]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryFalse
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryFalse
+      resultStatus: 1
+      duration: 0.0034415
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1041
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryTrue]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryTrue
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadInDictionaryTrue
+      resultStatus: 1
+      duration: 0.0003844
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1044
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadOnGridFalse]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadOnGridFalse
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadOnGridFalse
+      resultStatus: 1
+      duration: 0.0005485
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1043
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadOnGridTrue]
+      name: RoadManagerTestsCheckIfNeighbourIsRoadOnGridTrue
+      fullName: Tests.RoadManagerTests.RoadManagerTestsCheckIfNeighbourIsRoadOnGridTrue
+      resultStatus: 1
+      duration: 0.0004184
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1061
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetCorrectRoadPrefab4WayGrid]
+      name: RoadManagerTestsGetCorrectRoadPrefab4WayGrid
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetCorrectRoadPrefab4WayGrid
+      resultStatus: 1
+      duration: 0.0008795
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1062
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetCorrectRoadPrefabCornerDictionary]
+      name: RoadManagerTestsGetCorrectRoadPrefabCornerDictionary
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetCorrectRoadPrefabCornerDictionary
+      resultStatus: 1
+      duration: 0.0005126
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1038
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetNeighboursAll4]
+      name: RoadManagerTestsGetNeighboursAll4
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetNeighboursAll4
+      resultStatus: 1
+      duration: 0.0020681
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1040
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetNeighboursRight]
+      name: RoadManagerTestsGetNeighboursRight
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetNeighboursRight
+      resultStatus: 1
+      duration: 0.0003328
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1039
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetNeighboursRightLeftDown]
+      name: RoadManagerTestsGetNeighboursRightLeftDown
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetNeighboursRightLeftDown
+      resultStatus: 1
+      duration: 0.0003994
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1031
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDown]
+      name: RoadManagerTestsGetStatusNeighbourDown
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDown
+      resultStatus: 1
+      duration: 0.0012117
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1032
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDownLeft]
+      name: RoadManagerTestsGetStatusNeighbourDownLeft
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDownLeft
+      resultStatus: 1
+      duration: 0.0003306
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1036
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDownLeftRight]
+      name: RoadManagerTestsGetStatusNeighbourDownLeftRight
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDownLeftRight
+      resultStatus: 1
+      duration: 0.0003263
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1033
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDownRight]
+      name: RoadManagerTestsGetStatusNeighbourDownRight
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDownRight
+      resultStatus: 1
+      duration: 0.0003088
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1037
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDownUpLeftRight]
+      name: RoadManagerTestsGetStatusNeighbourDownUpLeftRight
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourDownUpLeftRight
+      resultStatus: 1
+      duration: 0.000309
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1029
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourLeft]
+      name: RoadManagerTestsGetStatusNeighbourLeft
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourLeft
+      resultStatus: 1
+      duration: 0.0003132
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1028
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourRight]
+      name: RoadManagerTestsGetStatusNeighbourRight
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourRight
+      resultStatus: 1
+      duration: 0.0003107
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1030
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourUp]
+      name: RoadManagerTestsGetStatusNeighbourUp
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourUp
+      resultStatus: 1
+      duration: 0.0003217
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1035
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourUpLeft]
+      name: RoadManagerTestsGetStatusNeighbourUpLeft
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourUpLeft
+      resultStatus: 1
+      duration: 0.000315
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1034
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourUpRight]
+      name: RoadManagerTestsGetStatusNeighbourUpRight
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNeighbourUpRight
+      resultStatus: 1
+      duration: 0.0003162
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1027
+      uniqueId: EditModeTests.dll/Tests/RoadManagerTests/[EditModeTests][Tests.RoadManagerTests.RoadManagerTestsGetStatusNoNeighbours]
+      name: RoadManagerTestsGetStatusNoNeighbours
+      fullName: Tests.RoadManagerTests.RoadManagerTestsGetStatusNoNeighbours
+      resultStatus: 1
+      duration: 0.0003034
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.RoadManagerTests][suite]
+    - id: 1063
+      uniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.SingleStructureModificationHelperTests][suite]
+      name: SingleStructureModificationHelperTests
+      fullName: Tests.SingleStructureModificationHelperTests
+      resultStatus: 1
+      duration: 0.2753176
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: EditModeTests.dll/[EditModeTests][Tests][suite]
+    - id: 1064
+      uniqueId: EditModeTests.dll/Tests/SingleStructureModificationHelperTests/[EditModeTests][Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperAddPositionPasses]
+      name: SingleStructureModificationHelperAddPositionPasses
+      fullName: Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperAddPositionPasses
+      resultStatus: 1
+      duration: 0.2436674
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1063
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.SingleStructureModificationHelperTests][suite]
+    - id: 1068
+      uniqueId: EditModeTests.dll/Tests/SingleStructureModificationHelperTests/[EditModeTests][Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperAddToGridPasses]
+      name: SingleStructureModificationHelperAddToGridPasses
+      fullName: Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperAddToGridPasses
+      resultStatus: 1
+      duration: 0.0067399
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1063
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.SingleStructureModificationHelperTests][suite]
+    - id: 1066
+      uniqueId: EditModeTests.dll/Tests/SingleStructureModificationHelperTests/[EditModeTests][Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperAddToPositionsTwoTimesPasses]
+      name: SingleStructureModificationHelperAddToPositionsTwoTimesPasses
+      fullName: Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperAddToPositionsTwoTimesPasses
+      resultStatus: 1
+      duration: 0.0033459
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1063
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.SingleStructureModificationHelperTests][suite]
+    - id: 1067
+      uniqueId: EditModeTests.dll/Tests/SingleStructureModificationHelperTests/[EditModeTests][Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperRemoveFromAllPositionsPasses]
+      name: SingleStructureModificationHelperRemoveFromAllPositionsPasses
+      fullName: Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperRemoveFromAllPositionsPasses
+      resultStatus: 1
+      duration: 0.0041506
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1063
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.SingleStructureModificationHelperTests][suite]
+    - id: 1065
+      uniqueId: EditModeTests.dll/Tests/SingleStructureModificationHelperTests/[EditModeTests][Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperRemoveFromPositionsPasses]
+      name: SingleStructureModificationHelperRemoveFromPositionsPasses
+      fullName: Tests.SingleStructureModificationHelperTests.SingleStructureModificationHelperRemoveFromPositionsPasses
+      resultStatus: 1
+      duration: 0.003903
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1063
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.SingleStructureModificationHelperTests][suite]
+    - id: 1069
+      uniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureDemolitionHelperTest][suite]
+      name: StructureDemolitionHelperTest
+      fullName: Tests.StructureDemolitionHelperTest
+      resultStatus: 1
+      duration: 0.0397229
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: EditModeTests.dll/[EditModeTests][Tests][suite]
+    - id: 1071
+      uniqueId: EditModeTests.dll/Tests/StructureDemolitionHelperTest/[EditModeTests][Tests.StructureDemolitionHelperTest.StructureDemolitionHelperCAncleDemolitionPasses]
+      name: StructureDemolitionHelperCAncleDemolitionPasses
+      fullName: Tests.StructureDemolitionHelperTest.StructureDemolitionHelperCAncleDemolitionPasses
+      resultStatus: 1
+      duration: 0.0122815
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1069
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureDemolitionHelperTest][suite]
+    - id: 1072
+      uniqueId: EditModeTests.dll/Tests/StructureDemolitionHelperTest/[EditModeTests][Tests.StructureDemolitionHelperTest.StructureDemolitionHelperConfirmForDemolitionPasses]
+      name: StructureDemolitionHelperConfirmForDemolitionPasses
+      fullName: Tests.StructureDemolitionHelperTest.StructureDemolitionHelperConfirmForDemolitionPasses
+      resultStatus: 1
+      duration: 0.0078513
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1069
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureDemolitionHelperTest][suite]
+    - id: 1070
+      uniqueId: EditModeTests.dll/Tests/StructureDemolitionHelperTest/[EditModeTests][Tests.StructureDemolitionHelperTest.StructureDemolitionHelperSelectForDemolitionPasses]
+      name: StructureDemolitionHelperSelectForDemolitionPasses
+      fullName: Tests.StructureDemolitionHelperTest.StructureDemolitionHelperSelectForDemolitionPasses
+      resultStatus: 1
+      duration: 0.0040502
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1069
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureDemolitionHelperTest][suite]
+    - id: 1073
+      uniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+      name: StructureEconomyManagerTests
+      fullName: Tests.StructureEconomyManagerTests
+      resultStatus: 1
+      duration: 0.0333794
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: EditModeTests.dll/[EditModeTests][Tests][suite]
+    - id: 1086
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManager3ResidentialsConnectedToFacilityRemove2]
+      name: StructureEconomyManager3ResidentialsConnectedToFacilityRemove2
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManager3ResidentialsConnectedToFacilityRemove2
+      resultStatus: 1
+      duration: 0.0058685
+      messages: 
+      output: 'SingleFacilitySO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new SingleFacilitySO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1083
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerAdd3FacilityStructureNearRoadConnectionWith1]
+      name: StructureEconomyManagerAdd3FacilityStructureNearRoadConnectionWith1
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerAdd3FacilityStructureNearRoadConnectionWith1
+      resultStatus: 1
+      duration: 0.0035126
+      messages: 
+      output: 'SingleFacilitySO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new SingleFacilitySO.
+
+        SingleFacilitySO must be
+        instantiated using the ScriptableObject.CreateInstance method instead of
+        new SingleFacilitySO.
+
+        SingleFacilitySO must be instantiated using
+        the ScriptableObject.CreateInstance method instead of new SingleFacilitySO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1082
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerAdd3ReidentialStructureNearRoadConnectionWith1]
+      name: StructureEconomyManagerAdd3ReidentialStructureNearRoadConnectionWith1
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerAdd3ReidentialStructureNearRoadConnectionWith1
+      resultStatus: 1
+      duration: 0.0007015
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1084
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerAddPowerFacilityNear3Residential3Connected]
+      name: StructureEconomyManagerAddPowerFacilityNear3Residential3Connected
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerAddPowerFacilityNear3Residential3Connected
+      resultStatus: 1
+      duration: 0.0015219
+      messages: 
+      output: 'SingleFacilitySO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new SingleFacilitySO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1075
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerAddReidentialStructureNearRoadConnection]
+      name: StructureEconomyManagerAddReidentialStructureNearRoadConnection
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerAddReidentialStructureNearRoadConnection
+      resultStatus: 1
+      duration: 0.000508
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1076
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerAddReidentialStructureNearRoadDiagonalNoConnection]
+      name: StructureEconomyManagerAddReidentialStructureNearRoadDiagonalNoConnection
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerAddReidentialStructureNearRoadDiagonalNoConnection
+      resultStatus: 1
+      duration: 0.0004891
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1074
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerAddReidentialStructureNoRoad]
+      name: StructureEconomyManagerAddReidentialStructureNoRoad
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerAddReidentialStructureNoRoad
+      resultStatus: 1
+      duration: 0.0003899
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1081
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerAddRoadNear3ReidentialStructureConnectionWith1]
+      name: StructureEconomyManagerAddRoadNear3ReidentialStructureConnectionWith1
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerAddRoadNear3ReidentialStructureConnectionWith1
+      resultStatus: 1
+      duration: 0.0006547
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1077
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerAddRoadNearReidentialStructureConnection]
+      name: StructureEconomyManagerAddRoadNearReidentialStructureConnection
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerAddRoadNearReidentialStructureConnection
+      resultStatus: 1
+      duration: 0.0004961
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1078
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerAddRoadNearReidentialStructureDiagonalNoConnection]
+      name: StructureEconomyManagerAddRoadNearReidentialStructureDiagonalNoConnection
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerAddRoadNearReidentialStructureDiagonalNoConnection
+      resultStatus: 1
+      duration: 0.000482
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1085
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerRemovePowerFacilityNear3Residential3Connected]
+      name: StructureEconomyManagerRemovePowerFacilityNear3Residential3Connected
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerRemovePowerFacilityNear3Residential3Connected
+      resultStatus: 1
+      duration: 0.0022001
+      messages: 
+      output: 'SingleFacilitySO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new SingleFacilitySO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1079
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerRemoveRoadNearReidentialStructureConnection]
+      name: StructureEconomyManagerRemoveRoadNearReidentialStructureConnection
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerRemoveRoadNearReidentialStructureConnection
+      resultStatus: 1
+      duration: 0.0010568
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1080
+      uniqueId: EditModeTests.dll/Tests/StructureEconomyManagerTests/[EditModeTests][Tests.StructureEconomyManagerTests.StructureEconomyManagerRemoveRoadNearReidentialStructureDiagonalNoConnection]
+      name: StructureEconomyManagerRemoveRoadNearReidentialStructureDiagonalNoConnection
+      fullName: Tests.StructureEconomyManagerTests.StructureEconomyManagerRemoveRoadNearReidentialStructureDiagonalNoConnection
+      resultStatus: 1
+      duration: 0.0005496
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureEconomyManagerTests][suite]
+    - id: 1087
+      uniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureRepositoryEditModeTests][suite]
+      name: StructureRepositoryEditModeTests
+      fullName: Tests.StructureRepositoryEditModeTests
+      resultStatus: 1
+      duration: 0.0162998
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        CollectionSO must be instantiated using the ScriptableObject.CreateInstance
+        method instead of new CollectionSO.
+
+        RoadStructureSO must be instantiated
+        using the ScriptableObject.CreateInstance method instead of new RoadStructureSO.
+
+        SingleFacilitySO
+        must be instantiated using the ScriptableObject.CreateInstance method instead
+        of new SingleFacilitySO.
+
+        ZoneStructureSO must be instantiated using
+        the ScriptableObject.CreateInstance method instead of new ZoneStructureSO.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: EditModeTests.dll/[EditModeTests][Tests][suite]
+    - id: 1088
+      uniqueId: EditModeTests.dll/Tests/StructureRepositoryEditModeTests/[EditModeTests][Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetRoadPrefabPasses]
+      name: StructureRepositoryEditModeGetRoadPrefabPasses
+      fullName: Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetRoadPrefabPasses
+      resultStatus: 1
+      duration: 0.0004577
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1087
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureRepositoryEditModeTests][suite]
+    - id: 1090
+      uniqueId: EditModeTests.dll/Tests/StructureRepositoryEditModeTests/[EditModeTests][Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetSingleStructurePrefabNullPasses]
+      name: StructureRepositoryEditModeGetSingleStructurePrefabNullPasses
+      fullName: Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetSingleStructurePrefabNullPasses
+      resultStatus: 1
+      duration: 0.0019423
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1087
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureRepositoryEditModeTests][suite]
+    - id: 1089
+      uniqueId: EditModeTests.dll/Tests/StructureRepositoryEditModeTests/[EditModeTests][Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetSingleStructurePrefabPasses]
+      name: StructureRepositoryEditModeGetSingleStructurePrefabPasses
+      fullName: Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetSingleStructurePrefabPasses
+      resultStatus: 1
+      duration: 0.0003049
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1087
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureRepositoryEditModeTests][suite]
+    - id: 1092
+      uniqueId: EditModeTests.dll/Tests/StructureRepositoryEditModeTests/[EditModeTests][Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetZonePrefabNullPasses]
+      name: StructureRepositoryEditModeGetZonePrefabNullPasses
+      fullName: Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetZonePrefabNullPasses
+      resultStatus: 1
+      duration: 0.0006313
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1087
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureRepositoryEditModeTests][suite]
+    - id: 1091
+      uniqueId: EditModeTests.dll/Tests/StructureRepositoryEditModeTests/[EditModeTests][Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetZonePrefabPasses]
+      name: StructureRepositoryEditModeGetZonePrefabPasses
+      fullName: Tests.StructureRepositoryEditModeTests.StructureRepositoryEditModeGetZonePrefabPasses
+      resultStatus: 1
+      duration: 0.0003285
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1087
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.StructureRepositoryEditModeTests][suite]
+    - id: 1093
+      uniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+      name: ZoneCalculatorTests
+      fullName: Tests.ZoneCalculatorTests
+      resultStatus: 1
+      duration: 0.0208903
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: EditModeTests.dll/[EditModeTests][Tests][suite]
+    - id: 1095
+      uniqueId: EditModeTests.dll/Tests/ZoneCalculatorTests/[EditModeTests][Tests.ZoneCalculatorTests.ZoneCalculatorTestCalculateZoneLargerThanPreviousPlacement]
+      name: ZoneCalculatorTestCalculateZoneLargerThanPreviousPlacement
+      fullName: Tests.ZoneCalculatorTests.ZoneCalculatorTestCalculateZoneLargerThanPreviousPlacement
+      resultStatus: 1
+      duration: 0.0037117
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+    - id: 1094
+      uniqueId: EditModeTests.dll/Tests/ZoneCalculatorTests/[EditModeTests][Tests.ZoneCalculatorTests.ZoneCalculatorTestCalculateZoneNoPreviousPlacement]
+      name: ZoneCalculatorTestCalculateZoneNoPreviousPlacement
+      fullName: Tests.ZoneCalculatorTests.ZoneCalculatorTestCalculateZoneNoPreviousPlacement
+      resultStatus: 1
+      duration: 0.0005705
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+    - id: 1096
+      uniqueId: EditModeTests.dll/Tests/ZoneCalculatorTests/[EditModeTests][Tests.ZoneCalculatorTests.ZoneCalculatorTestCalculateZoneSmallerhanPreviousPlacement]
+      name: ZoneCalculatorTestCalculateZoneSmallerhanPreviousPlacement
+      fullName: Tests.ZoneCalculatorTests.ZoneCalculatorTestCalculateZoneSmallerhanPreviousPlacement
+      resultStatus: 1
+      duration: 0.000714
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+    - id: 1101
+      uniqueId: EditModeTests.dll/Tests/ZoneCalculatorTests/[EditModeTests][Tests.ZoneCalculatorTests.ZoneCalculatorTestCheckIfpositionHasChangedFalse]
+      name: ZoneCalculatorTestCheckIfpositionHasChangedFalse
+      fullName: Tests.ZoneCalculatorTests.ZoneCalculatorTestCheckIfpositionHasChangedFalse
+      resultStatus: 1
+      duration: 0.0005972
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+    - id: 1102
+      uniqueId: EditModeTests.dll/Tests/ZoneCalculatorTests/[EditModeTests][Tests.ZoneCalculatorTests.ZoneCalculatorTestCheckIfpositionHasChangedTrue]
+      name: ZoneCalculatorTestCheckIfpositionHasChangedTrue
+      fullName: Tests.ZoneCalculatorTests.ZoneCalculatorTestCheckIfpositionHasChangedTrue
+      resultStatus: 1
+      duration: 0.0003286
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+    - id: 1100
+      uniqueId: EditModeTests.dll/Tests/ZoneCalculatorTests/[EditModeTests][Tests.ZoneCalculatorTests.ZoneCalculatorTestPrepareStartAndEndPositionBottomLeftTopRight]
+      name: ZoneCalculatorTestPrepareStartAndEndPositionBottomLeftTopRight
+      fullName: Tests.ZoneCalculatorTests.ZoneCalculatorTestPrepareStartAndEndPositionBottomLeftTopRight
+      resultStatus: 1
+      duration: 0.0009071
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+    - id: 1097
+      uniqueId: EditModeTests.dll/Tests/ZoneCalculatorTests/[EditModeTests][Tests.ZoneCalculatorTests.ZoneCalculatorTestPrepareStartAndEndPositionBOttomLeftTopRight]
+      name: ZoneCalculatorTestPrepareStartAndEndPositionBOttomLeftTopRight
+      fullName: Tests.ZoneCalculatorTests.ZoneCalculatorTestPrepareStartAndEndPositionBOttomLeftTopRight
+      resultStatus: 1
+      duration: 0.0005788
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+    - id: 1099
+      uniqueId: EditModeTests.dll/Tests/ZoneCalculatorTests/[EditModeTests][Tests.ZoneCalculatorTests.ZoneCalculatorTestPrepareStartAndEndPositionTopRightBottomLeft]
+      name: ZoneCalculatorTestPrepareStartAndEndPositionTopRightBottomLeft
+      fullName: Tests.ZoneCalculatorTests.ZoneCalculatorTestPrepareStartAndEndPositionTopRightBottomLeft
+      resultStatus: 1
+      duration: 0.0007163
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+    - id: 1098
+      uniqueId: EditModeTests.dll/Tests/ZoneCalculatorTests/[EditModeTests][Tests.ZoneCalculatorTests.ZoneCalculatorTestPrepareStartAndEndPositionTopRightBOttomLeft]
+      name: ZoneCalculatorTestPrepareStartAndEndPositionTopRightBOttomLeft
+      fullName: Tests.ZoneCalculatorTests.ZoneCalculatorTestPrepareStartAndEndPositionTopRightBOttomLeft
+      resultStatus: 1
+      duration: 0.0005598
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditModeTests.dll/Tests/[EditModeTests][Tests.ZoneCalculatorTests][suite]
+    m_ResultText: Udemy City Builder Code (0.485s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 988}
+      m_SelectedIDs: 51919392
+      m_LastClickedID: -1835822767
+      m_ExpandedIDs: b0d2ca8551919392bc1b99b090fc73b2cee603b60537a0c37ffa1fe7b4b15ff37f0ef91470c73d25446b8a2d1f580834ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 1257.4
+    height: 435
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1258.4
+    y: 73.6
+    width: 539.6
+    height: 997.80005
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: b6f5ffffcaf8ffff5efbffff6c4000008040000098400000c0400000d2400000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 7}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 9cf1b511f10f959439e3700665094936
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2275.2
+    y: 73.6
+    width: 475.80005
+    height: 997.80005
+  m_ViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_AssetGUID: 
+  m_InstanceID: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1800
+    y: 73.6
+    width: 473.2
+    height: 997.80005
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scripts/States
+    m_Globs: []
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts/States
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\auris\Desktop\City-Builder-Template
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ce3f0000
+    m_LastClickedID: 16334
+    m_ExpandedIDs: 00000000b23f0000b43f0000d03f000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000b23f0000b43f0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 8}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 110
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 529.60004
+    width: 1257.4
+    height: 541.80005
+  m_ViewDataDictionary: {fileID: 0}
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1042, y: 651.00006}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_MaximizeOnPlay: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 04000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -416.80002
+    m_HBaseRangeMax: 416.80002
+    m_VBaseRangeMin: -260.40002
+    m_VBaseRangeMax: 260.40002
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1257.4
+      height: 520.80005
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 628.7, y: 260.40002}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -628.7
+      y: -260.40002
+      width: 1257.4
+      height: 520.80005
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1571.75, y: 677.25006}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 1257.4
+    height: 435
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: e0c4e14cc553b3146a7be0a8cb70f1a5
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 544.97363, y: 186.64835, z: -120.526344}
+    speed: 2
+    m_Value: {x: 544.97363, y: 186.64835, z: -120.526344}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 195.69952
+    speed: 2
+    m_Value: 195.69952
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13963, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DontSaveToLayout: 0
